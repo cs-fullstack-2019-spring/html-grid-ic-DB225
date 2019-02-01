@@ -1,0 +1,27 @@
+div{
+    border: 3px solid darkblue;
+    background-color: slategray;
+}
+
+/*The display of all squares*/
+.square{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px,auto);
+    grid-gap: 10px;
+    gap: 10px;
+
+}
+
+/*Style for each box*/
+.eachSquare{
+    border: 3px solid navy;
+    padding: 75px;
+    margin: 20px;
+    background: dodgerblue;
+}
+
+body{
+    margin: 7em auto;
+    max-width: 650px;
+}

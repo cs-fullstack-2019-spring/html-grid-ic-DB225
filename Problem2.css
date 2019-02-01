@@ -1,0 +1,55 @@
+body{
+    margin: 10% 20%;
+    background: darkblue;
+}
+
+
+.square{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 6px;
+    grid-template-areas:
+            ". gridlayout gridlayout name"
+    "c3 c4 c5 c6"
+    "c7 c8 c9"
+}
+
+.c3{
+    grid-area: c3;
+}
+
+.c4{
+    grid-area: c4;
+}
+
+.c5{
+    grid-area: c5;
+}
+
+.c6{
+    grid-area: c6;
+}
+
+.c7{
+    grid-area: c7;
+}
+
+.c8{
+    grid-area: c8;
+}
+
+.c9{
+    grid-area: c9;
+}
+
+div > section{
+    background: white;
+}
+
+.firstSquare{
+    background: magenta;
+}
+
+.secondSquare{
+    background: darkblue;
+}
